@@ -3,7 +3,7 @@ import openpyxl
 import re
 
 #  Word-Dokument laden
-doc = Document("Arbeitsdatei  EPS_DORA Prüfung 20250707 mit Anmerkungen BaFin.docx")
+doc = Document("TEST20250617 Entwurf Arbeitshilfe Prüfung DORA clean.docx")
 
 # 🔍 Funktion: richtige Tabelle anhand der Header finden
 def finde_richtige_tabelle(doc, erwartete_header):
